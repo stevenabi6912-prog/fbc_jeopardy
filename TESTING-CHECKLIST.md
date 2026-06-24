@@ -7,7 +7,7 @@ as it passes. If something fails, fix it before continuing — bugs in early ste
 ---
 
 ## STEP 1 — TSV parser
-- [ ] App loads `sample-questions/Animals.tsv` without error.
+- [ ] App loads `QuizShow/Animals.tsv` without error.
 - [ ] Board shows 5 categories × 5 clues from that file.
 - [ ] Category name reads from the header row ("Animals").
 - [ ] Loads `BibleBooks.tsv` and correctly shows a DIFFERENT size (4 categories × 2 clues) with different per-column category names.

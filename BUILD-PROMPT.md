@@ -1,7 +1,7 @@
 # Build Prompt: Buzzer Jeopardy Game
 
 Build a **Jeopardy-style trivia game** that runs locally on a Mac and reads physical quiz buzzers.
-Read `QUESTION-FORMAT.md` and the example file `sample-questions/Animals.tsv` before writing the parser — the app MUST load the user's existing trivia library in that exact format without reformatting.
+Read `QUESTION-FORMAT.md` and the example file `QuizShow/Animals.tsv` before writing the parser — the app MUST load the user's existing trivia library in that exact format without reformatting.
 
 ## Hardware / input model (IMPORTANT — this is how buzzing works)
 
@@ -69,7 +69,7 @@ Read `QUESTION-FORMAT.md` and the example file `sample-questions/Animals.tsv` be
 ## Deliverables
 
 - Working app, runnable on macOS with clear README instructions (how to install/run, where to put `.tsv` files, how the buzzers map).
-- The parser must successfully load `sample-questions/Animals.tsv` and any same-format file of arbitrary size.
+- The parser must successfully load `QuizShow/Animals.tsv` and any same-format file of arbitrary size.
 - Keep the codebase organized so it can be extended later (separate concerns: parsing, game state, UI/views, audio).
 - Include a couple of sample `.tsv` files (use the provided Animals.tsv; add 1–2 more dummy sets so mix/match can be demonstrated).
 

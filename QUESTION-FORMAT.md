@@ -1,7 +1,7 @@
 # Question File Format (TSV)
 
 The app must load the user's EXISTING trivia files without requiring any reformatting.
-This document describes that exact format. A real example file is in `sample-questions/Animals.tsv`.
+This document describes that exact format. A real example file is in `QuizShow/Animals.tsv`.
 
 ## Structure
 
